@@ -70,8 +70,8 @@
    let lightboxImg = lightbox.querySelector('img');
    let lightboxDesc = lightbox.querySelector('p');
    let lightboxClose = document.querySelector('.close-lightbox');
-   let Larrow = lightbox.querySelector('.leftArrow');
-   let Rarrow = lightbox.querySelector('.rightArrow');
+  //  let Larrow = lightbox.querySelector('.leftArrow');
+  //  let Rarrow = lightbox.querySelector('.rightArrow');
    let lightboxTitle = lightbox.querySelector('h1');
 
   lightbox.style.display = 'block';
@@ -79,22 +79,22 @@
   lightboxDesc.innerHTML = currentObject.imageDescription[currentIndex];
   lightboxTitle.innerHTML = currentObject.imageTitle[currentIndex];
 
-  Larrow.addEventListener('click', prevPic, false);
-  Rarrow.addEventListener('click', nextPic, false);
+  // Larrow.addEventListener('click', prevPic, false);
+  // Rarrow.addEventListener('click', nextPic, false);
   lightboxClose.addEventListener('click', closeLightbox, false);
 
-  function prevPic(){
+  // function prevPic(){
 // console.log('hello');
 // debugger;
 
-
-}
-
-function nextPic(){
+//
+// }
+//
+// function nextPic(){
 // console.log('hello');
 // debugger;
 
-}
+// }
 
   function closeLightbox(){
     //reset everything, close the lightbox

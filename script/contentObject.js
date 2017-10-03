@@ -17,15 +17,18 @@ var dynamicContent = {
 				"As you see, there are many beautiful butterflies flying around.",
 				"Have you ever seen a baby duck more adorable than this little fella? I didn't think so.",
 				"these are amoungst the most beautiful flowers during the spring time",
-				"this is a forest",
-				"this is another forest",
-				"this is a lake"
+				"Gaze at the misty beauty that is the forest",
+				"This is the perfect place to bring that special someone",
+				"Get lost in this mirror perfect reflection"
 			],
 
 			imageTitle : [
 				"Butterflies",
-				"Duck",
+				"Baby Duck",
 				"Flowers",
+				"Sunset Forest",
+				"Wedding Destination",
+				"Reflective Lake"
 			]
 		},
 
@@ -44,12 +47,22 @@ var dynamicContent = {
 			],
 
 			imageDescription : [
-				"this is a row of chairs",
-				"this is a golden retriver",
-				"this is a palm tree",
-				"this is a sunflower",
-				"this is a cool deck",
+				"Enjoy the lovely view of this beautiful ocean",
+				"Just look at him...LOOK AT HIM!",
+				"I like that tree, that is a nice tree -Donkey",
+				"A very nice sunflower",
+				"Who would want to go here? I would",
 				"this is a dumb pair of sunglasses"
+			],
+
+			imageTitle : [
+				"Take a Seat",
+				"An Adorable Puppy",
+				"Palm Tree",
+				"Sunflower",
+				"Long Deck",
+				"Silly Sunglasses"
+
 			]
 		},
 
