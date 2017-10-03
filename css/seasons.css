@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-body { background: #000; color: #FFF; font-size: 16px; }
+body { background: white; color: white; font-size: 16px; }
 
 h1, h2 { font-family: 'Mystery Quest', cursive; }
 
@@ -21,7 +21,7 @@ section, article, .subImagesContainer { position: relative; width: 635px; margin
 }
 
 .image-holder:hover {
-	opacity: 0.3;
+	opacity: 0.1;
 }
 
 section { margin-top: 15px; background-color: #FFF; }
@@ -52,9 +52,26 @@ section { margin-top: 15px; background-color: #FFF; }
 	padding-bottom: 20px;
 }
 
-.subImagesContainer { padding: 0; }
+.subImagesContainer {
+	padding: 0;
+	width: 560px;
+	margin: 0 auto;
+ }
 
-.thumb { height: 90px; margin: 8px; cursor: pointer; }
+.thumb {
+	width: 160px;
+	margin: 8px;
+	border: 5px solid grey;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: opacity 0.2s ease-in;
+	transition:  transform 0.2s ease-in;
+}
+
+.thumb:hover{
+	opacity: 0.8;
+	transform: scale(1.1);
+}
 
 .lightbox {
 	position: absolute;
@@ -65,4 +82,72 @@ section { margin-top: 15px; background-color: #FFF; }
 	height: 100%;
 	color: white;
 	background-color: rgba(0,0,0,0.85);
+}
+
+.close-lightbox{
+	float: right;
+	margin-right: 18px;
+	margin-top: 12px;
+	font-size: 2em;
+	cursor: pointer;
+}
+
+.lightbox-img{
+	display: block;
+	width: 600px;
+	margin: 0 auto;
+	margin-top: 80px;
+	border: 10px solid grey;
+	border-radius: 5px;
+}
+
+.lightbox p{
+	text-align: center;
+}
+
+.lightbox h1{
+	text-align: center;
+}
+
+#close{
+	transition: color 0.3s ease-in;
+	transition: transform 0.2s ease-in;
+}
+
+#close:hover{
+	color: grey;
+	transform: rotate(-90deg);
+  /*-webkit-transform: rotate(-45deg);*/
+}
+
+.leftArrow{
+	float: left;
+	cursor: pointer;
+	width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-right: 20px solid white;
+	transition: color 0.3s ease-in;
+	margin-left: 100px;
+}
+
+.rightArrow{
+	float: right;
+	cursor: pointer;
+	width: 0;
+	height: 0;
+	border-top: 20px solid transparent;
+	border-bottom: 20px solid transparent;
+	border-left: 20px solid white;
+	transition: color 0.3s ease-in;
+	margin-right: 100px;
+}
+
+.rightArrow:hover{
+	color: grey;
+}
+
+.leftArrow:hover{
+	color: grey;
 }

@@ -6,7 +6,26 @@ var dynamicContent = {
 
 			images : [
 				"spring_1.jpg",
-				"spring_2.jpg"
+				"spring_2.jpg",
+				"spring_3.jpeg",
+				"spring_4.jpeg",
+				"spring_5.jpeg",
+				"spring_6.jpeg"
+			],
+
+			imageDescription : [
+				"As you see, there are many beautiful butterflies flying around.",
+				"Have you ever seen a baby duck more adorable than this little fella? I didn't think so.",
+				"these are amoungst the most beautiful flowers during the spring time",
+				"this is a forest",
+				"this is another forest",
+				"this is a lake"
+			],
+
+			imageTitle : [
+				"Butterflies",
+				"Duck",
+				"Flowers",
 			]
 		},
 
@@ -17,7 +36,20 @@ var dynamicContent = {
 
 			images : [
 				"summer_1.jpg",
-				"summer_2.jpg"
+				"summer_2.jpg",
+				"summer_3.jpeg",
+				"summer_4.jpeg",
+				"summer_5.jpeg",
+				"summer_6.jpg"
+			],
+
+			imageDescription : [
+				"this is a row of chairs",
+				"this is a golden retriver",
+				"this is a palm tree",
+				"this is a sunflower",
+				"this is a cool deck",
+				"this is a dumb pair of sunglasses"
 			]
 		},
 
@@ -28,7 +60,20 @@ var dynamicContent = {
 
 			images : [
 				"autumn_1.jpg",
-				"autumn_2.jpg"
+				"autumn_2.jpg",
+				"fall_3.jpeg",
+				"fall_4.jpeg",
+				"fall_5.jpg",
+				"fall_6.jpg"
+			],
+
+			imageDescription : [
+				"this is a forest full of colour",
+				"these are pumpkins",
+				"this is a beautiful river",
+				"this is a leaf covered road",
+				"this is a colourful lake",
+				"this is yet another colourful lake"
 			]
 		},
 
@@ -39,7 +84,20 @@ var dynamicContent = {
 
 			images : [
 				"winter_1.jpg",
-				"winter_2.jpg"
+				"winter_2.jpg",
+				"winter_3.jpeg",
+				"winter_4.jpeg",
+				"winter_5.jpg",
+				"winter_6.jpg",
+			],
+
+			imageDescription : [
+				"this is a snow covered forest",
+				"This is is an odd looking snowman",
+				"GET A NEW IMAGE DUMB DUMB",
+				"This is a beautiful sunset",
+				"This is a snow covered road",
+				"this is a horse running in snow"
 			]
 		}
 	};
