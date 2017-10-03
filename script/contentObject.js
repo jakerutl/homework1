@@ -48,16 +48,16 @@ var dynamicContent = {
 
 			imageDescription : [
 				"Enjoy the lovely view of this beautiful ocean",
-				"Just look at him...LOOK AT HIM!",
+				"Get it? HOT because it's summer, and DOG because of the obvious",
 				"I like that tree, that is a nice tree -Donkey",
 				"A very nice sunflower",
 				"Who would want to go here? I would",
-				"this is a dumb pair of sunglasses"
+				"Summer lovin had me a blast"
 			],
 
 			imageTitle : [
 				"Take a Seat",
-				"An Adorable Puppy",
+				"Hot Dog",
 				"Palm Tree",
 				"Sunflower",
 				"Long Deck",
@@ -82,11 +82,21 @@ var dynamicContent = {
 
 			imageDescription : [
 				"this is a forest full of colour",
-				"these are pumpkins",
-				"this is a beautiful river",
-				"this is a leaf covered road",
+				"A nice arrangement of pumpkins",
+				"this is a beautiful river that flows through a wonderful forest",
+				"this is a leaf covered road that hikers will enjoy strolling down",
 				"this is a colourful lake",
-				"this is yet another colourful lake"
+				"this is yet another colourful river"
+			],
+
+			imageTitle : [
+				"forest",
+				"Pumpkins",
+				"River Below",
+				"Autumn Road",
+				"Autumn Lake",
+				"Under the Bridge",
+
 			]
 		},
 
@@ -105,12 +115,21 @@ var dynamicContent = {
 			],
 
 			imageDescription : [
-				"this is a snow covered forest",
-				"This is is an odd looking snowman",
-				"GET A NEW IMAGE DUMB DUMB",
+				"Enjoy the forest beyond the wall",
+				"A Winters day",
+				"Winter flowers in bloom",
 				"This is a beautiful sunset",
-				"This is a snow covered road",
-				"this is a horse running in snow"
+				"Follow the snow covered road",
+				"A horse astray from the battle of the bastards"
+			],
+
+			imageTitle : [
+				"Winter is Here",
+				"Snowman",
+				"Snow Flake Branches",
+				"Winter Evening",
+				"White Walkers",
+				"John Snows Horse"
 			]
 		}
 	};
