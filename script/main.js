@@ -102,6 +102,9 @@
 
     lightbox.style.display = 'none'; //turns lightbox off
     document.body.style.overflow = "auto";//turns scrolling back on
+    lightbox.querySelector('img').src = "";//resets image
+    lightbox.querySelector('p').innerHTML = ""; //resets desc
+    lightbox.querySelector('h1').innerHTML = "";//resets title
 
   }
 
